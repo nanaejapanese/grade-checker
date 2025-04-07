@@ -1,24 +1,23 @@
+# 成績判定プログラム（Judge the grades entered by the user as A,B,C,D or F）
 
-# author : Nanae Shimoi
 
-#【theme】-----------------
-#Judge the grades entered by the user as A,B,C,D or F
-
-#【step】-------------------
+#【step】
 #1,ask "Please enter your grade percentage:"
 #2,initial setup
 #3,grades to variables
 #4,desplay the A,B,C,D or F
 #5,desplay "pass or not"
 
-#【to do list】-------------
+
+#【to do list】
 #1,use "percentage=float(input""")"--------ask "Please enter your grade percentage:"
 #2,use "error"-------initial setup
 #3,use "if percentage>=90: , elif percentage>=80:,70:,60:"--------grades to variables
 #4,use "print(f"Your grade is :{}")"--------desplay the A,B,C,D or F
 #5,use"if percentage >= 70:print(""),else:"---------desplay "pass or not"
 
-#【assignment】--------------
+
+
 percentage = float(input("Please enter your grade percentage:"))
 
 if percentage >= 90: 
